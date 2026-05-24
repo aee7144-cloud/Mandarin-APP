@@ -1,0 +1,5 @@
+/* styles/globals.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; background: #e5e7eb; }
+body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+#__next { width: 100%; max-width: 390px; min-height: 100vh; }
