@@ -84,7 +84,6 @@ function ScanScreen({ onWordScanned, existingWord }) {
   const [result, setResult] = useState(existingWord || null);
   const [errorMsg, setErrorMsg] = useState('');
   const [saved, setSaved] = useState(false);
-  const fileRef = useRef();
   const canvasRef = useRef();
   const videoRef = useRef();
   const [camOn, setCamOn] = useState(false);
